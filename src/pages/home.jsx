@@ -17,7 +17,7 @@ const Home = () => {
             <div className="ad-section">
                 <div className="overlay"></div>
                 <div id="home" className="container">
-                    
+
                     <Header />
                     <MainSection />
                 </div>
@@ -30,7 +30,7 @@ const Home = () => {
                 <div className="container inner">
                     <CardCar img={Car1} title={"ECONOMY CLASS"} text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore "} cost={"Ghc 9800 sum"} />
                     <CardCar img={Car2} title={"STANDARD CLASS"} text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore "} cost={"12 500 sum"} />
-                    <CardCar img={Car1} title={"BUSINESS CLASS"} text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore "} cost={"16 500 sum"} />
+                    <CardCar img={Car3} title={"BUSINESS CLASS"} text={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore "} cost={"16 500 sum"} />
                 </div>
             </div>
             <div id="blog" className="about">
