@@ -1,0 +1,45 @@
+.header {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: transparent;
+    transition: all ease 0.5s;
+    z-index: 10;
+
+    &.is-sticky {
+        background-color: #fff;
+        transition: all ease 0.5s;
+
+        .header-container {
+
+            a {
+                color: black;
+            }
+        }
+    }
+
+    .header-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 144.19%;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            margin-right: 43px;
+
+            &:last-child {
+                margin: 0;
+            }
+        }
+    }
+}

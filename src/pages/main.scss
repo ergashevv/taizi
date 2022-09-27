@@ -1,0 +1,76 @@
+.ad-section {
+    background-image: url('../assets/images/bgi.png');
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background: rgba(15, 13, 5, 0.89);
+    }
+}
+
+.form-section {
+    background: #E7B803;
+}
+
+.cards-section {
+    padding: 50px 0;
+
+    .inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h2 {
+        margin-bottom: 110px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.5px;
+        line-height: 144.19%;
+        letter-spacing: 0.02em;
+        color: #000000;
+    }
+
+    background: #F4F4F4;
+}
+
+.about {
+    background: #E7B803;
+    padding: 60px 0;
+
+    h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 31.5px;
+        line-height: 144.19%;
+        letter-spacing: 0.02em;
+        color: #000000;
+        text-align: center;
+    }
+
+    .about-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+    }
+}
+
+.clients-section {
+    padding: 60px 0 40px 0;
+    background: #2F2F2F;
+    min-height: 600px;
+}
+
+.contact-section {
+    background: #E7B803;
+    padding: 45px 0;
+}

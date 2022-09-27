@@ -1,0 +1,95 @@
+.clients {
+    .title {
+        margin-bottom: 90px;
+
+        h2 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 144.19%;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 31.5px;
+            line-height: 144.19%;
+            letter-spacing: 0.02em;
+            color: #E7B803;
+            text-align: center;
+        }
+    }
+
+    button {
+        outline: none;
+        border-bottom: 1px solid #E7B803;
+        font-style: normal;
+        margin-bottom: 10px;
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 16px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        line-height: 144.19%;
+        width: 120px;
+        float: right;
+        letter-spacing: 0.02em;
+        color: #E7B803;
+        transition: all ease 0.5s;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: all ease 0.5s;
+        }
+    }
+
+    .clients-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        transition: all ease 0.5s;
+
+        .clients-card {
+            transition: all ease 0.5s;
+            margin-bottom: 40px;
+            transform: scale(0.9);
+
+            &.active {
+                transition: all ease 0.5s;
+                transform: scale(1);
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 157.69%;
+                letter-spacing: 0.02em;
+                color: #FFFFFF;
+            }
+
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 144.19%;
+                letter-spacing: 0.02em;
+                color: #E7B803;
+            }
+
+            h4 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 144.19%;
+                letter-spacing: 0.02em;
+                color: #E7B803;
+            }
+        }
+    }
+}
