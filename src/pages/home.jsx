@@ -17,11 +17,12 @@ const Home = () => {
             <div className="ad-section">
                 <div className="overlay"></div>
                 <div id="home" className="container">
+                    
                     <Header />
                     <MainSection />
                 </div>
             </div>
-            <div id="features" className="form-section">
+            <div id="features" className="form-section ">
                 <FormHome />
             </div>
             <div id="about" className="cards-section">
